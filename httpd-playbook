@@ -1,0 +1,7 @@
+---
+ - name: httpd package
+   hosts: vlab
+   tasks:
+   - name: installing package
+     yum: name=httpd state=present
+...
